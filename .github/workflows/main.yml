@@ -6,7 +6,7 @@ on:
       - main  # Change this to the branch you want to trigger deployment from
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
